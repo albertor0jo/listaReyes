@@ -148,6 +148,12 @@ main {
     background-color: #1f3f5c;
 }
 
+.card .btn:focus {
+    outline: none;
+    background-color: #1f3f5c; /* Match the hover state or keep it consistent */
+    color: #ffffff; /* Ensure text color remains consistent */
+}
+
 /* Footer */
 footer {
     text-align: center;
