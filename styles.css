@@ -124,12 +124,27 @@ main {
 
 }
 
+
+.card .price-size-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .card .price {
     font-family: 'Lexend', sans-serif;
     font-size: 1.1rem;
     font-weight: 100;
     color: #969696;
     margin-bottom: 0.5rem; /* Reduced margin to keep it close to the button */
+}
+.card .size {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: #969696;
+    margin-bottom: 0.5rem; /* Reduced margin to keep it close to the button */
+    margin-right: 10px;
 }
 
 .card .btn {
